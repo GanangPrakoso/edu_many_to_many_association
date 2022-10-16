@@ -15,9 +15,6 @@ module.exports = {
       actor_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
-
-        // perlu diperhatikan
-        // rumus amannya: kalian bikin table yang ada FK itu terakhir
         references: {
           model: "Actors",
           key: "id",

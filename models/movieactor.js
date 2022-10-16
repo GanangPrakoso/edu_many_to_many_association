@@ -8,16 +8,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // kalo MANY TO MANY. ga perlu didefinisiin
-
-      // DOUBLE ONE TO MANY
-      MovieActor.belongsTo(models.Actor, {
-        foreignKey: "actor_id",
-      });
-
-      MovieActor.belongsTo(models.Movie, {
-        foreignKey: "movie_id",
-      });
+      // describe assocation here
     }
   }
   MovieActor.init(
