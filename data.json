@@ -1,0 +1,96 @@
+{
+  "Movies": [
+    {
+      "name": "Harry Potter 1",
+      "duration": 160,
+      "release_date": "2001-12-19",
+      "cover_url": "https://static.wikia.nocookie.net/warner-bros-entertainment/images/0/0e/Philostone.jpg"
+    },
+    {
+      "name": "Die Hard 4",
+      "duration": 130,
+      "release_date": "2007-06-22",
+      "cover_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9713/9713158_so.jpg"
+    },
+    {
+      "name": "Split",
+      "duration": 120,
+      "release_date": "2017-02-05",
+      "cover_url": "http://assets.kompasiana.com/items/album/2021/07/20/split-devianart-co-60f6936cb13fde452f3cc682.jpg"
+    }
+  ],
+  "Actors": [
+    {
+      "name": "Bruce Wills",
+      "gender": "male",
+      "birth_date": "1955-03-19",
+      "profile_image": "https://static.wikia.nocookie.net/orville/images/b/bc/Bruce_Willis.jpg"
+    },
+    {
+      "name": "James Mcavoy",
+      "gender": "male",
+      "birth_date": "1979-04-21",
+      "profile_image": "https://static.wikia.nocookie.net/disneyfanon/images/f/f4/James_McAvoy.jpg"
+    },
+    {
+      "name": "Daniel Radclief",
+      "gender": "male",
+      "birth_date": "1989-07-23",
+      "profile_image": "https://pyxis.nymag.com/v1/imgs/d25/0c4/0454583bbb2dc68582e3fe3e9b89a16045-danielradcliffe.rsquare.w330.jpg"
+    },
+    {
+      "name": "Emma Watson",
+      "gender": "female",
+      "birth_date": "1990-04-15",
+      "profile_image": "https://unleashtheknowledge.com/wp-content/uploads/2021/02/Emma-Watson.jpg"
+    },
+    {
+      "name": "Rupert Grint",
+      "gender": "male",
+      "birth_date": "1988-08-24",
+      "profile_image": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+    }
+  ],
+  "MovieActors": [
+    {
+      "role": "Harry Potter",
+      "actor_id": 3,
+      "movie_id": 1
+    },
+    {
+      "role": "Harmonie Granger",
+      "actor_id": 4,
+      "movie_id": 1
+    },
+    {
+      "role": "Ron Weasley",
+      "actor_id": 5,
+      "movie_id": 1
+    },
+    {
+      "role": "John McClane",
+      "actor_id": 1,
+      "movie_id": 2
+    },
+    {
+      "role": "Dennis",
+      "actor_id": 2,
+      "movie_id": 3
+    },
+    {
+      "role": "Hedwig",
+      "actor_id": 2,
+      "movie_id": 3
+    },
+    {
+      "role": "Patricia",
+      "actor_id": 2,
+      "movie_id": 3
+    },
+    {
+      "role": "Cameo - David Dunn",
+      "actor_id": 1,
+      "movie_id": 3
+    }
+  ]
+}
