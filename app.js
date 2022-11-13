@@ -9,7 +9,7 @@ app.use(express.json());
 // TODO: GET MOVIES INCLUDING TABLES ASSOCIATED WITH IT!
 app.get("/movies", async (req, res) => {});
 
-// TODO: GET SPECIFIC JUNCTION TABLE!
+// TODO: GET SPECIFIC JUNCTION TABLE FOR MOVIE ACTOR!
 
 app.listen(port, () => {
   console.log("Aplikasi berjalan pada port " + port);
