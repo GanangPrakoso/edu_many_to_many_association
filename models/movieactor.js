@@ -13,11 +13,6 @@ module.exports = (sequelize, DataTypes) => {
   }
   MovieActor.init(
     {
-      id: {
-        type: DataTypes.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
-      },
       role: DataTypes.STRING,
       actor_id: DataTypes.INTEGER,
       movie_id: DataTypes.INTEGER,
