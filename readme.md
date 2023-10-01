@@ -5,8 +5,8 @@
 1. Many to Many (BASIC DATABASE)
 2. Setup Many to Many (SEQUELIZE ASSOCIATION)
 
-- Double One to Many
 - Many to Many
+- Double One to Many
 - Super Many to Many
 - `bisa di custom juga~`
 
